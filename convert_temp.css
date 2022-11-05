@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: auto;
+
+}
+h1 {
+	color: blue;
+	margin-top: 0;
+}
+main {
+    padding: 1em 2em;
+}
+div {
+	margin-bottom: 0.5em;
+}
+label {
+	float: left;
+    width: 16em;
+    text-align: right;
+}
+input {
+    margin-left: 1em;
+}
+#calculate {
+	margin-bottom: 1em;
+}
+
+
+
+.navbar{
+    width: 1320px;
+    margin:0 auto;
+}
+
+.mt-5{
+    width:1320px;
+    margin:0 auto;
+}
+
+
+.cal{
+    width:1320px;
+    margin:0 auto;
+}
