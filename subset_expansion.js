@@ -1,5 +1,5 @@
 
-    $("a").click(function() {    
+    $("#jdom a").click(function() {    
         $(this).prev().toggleClass("hide");    
         if($(this).prev().hasClass("hide")){    
         $(this).text("Show more");    
