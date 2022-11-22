@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="image_gallery.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="p-5 bg-primary text-white text-center">
+		<h1>Welcome to Photos of hikes</h1>
+		
+	  </div>
+	  
+	  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+		<div class="container-fluid">
+		  <ul class="navbar-nav">
+			<li class="nav-item">
+			  <a class="nav-link active" href="#">Home</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Contact</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="moreLess.html">About me</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="photos.html">About me</a>
+			</li>
+			
+		  </ul>
+		</div>
+	  </nav>
+	<main>
+		<h1>Image Gallery</h1>
+		<ul id="image_list">
+			<li><a href="images/Glendale.jpg" title="Glendale Peak">Glendale Peak</a></li>
+			<li><a href="images/Hollywood.jpg" title="Hollywood Sign">Hollywood Sign</a></li>
+			<li><a href="images/Mount.jpg" title="Mount Hollywood">Mount Hollywood</a></li>
+			
+		</ul>
+		<h2 id="caption">Casting on the Upper Kings</h2>
+		<p id="gallery">
+			<img src="images/main.jpg" alt="HIKES!">
+		</p>
+	</main>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+   	<script src="image_gallery.js"></script>
+</body>
+</html>
